@@ -37,7 +37,7 @@ case $no in 1*)
 ;;
 esac
 
-clang-7 -pthread -lm -o main $filename
+clang -pthread -lm -o main $filename
 ./main
 
 # echo
